@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 12 Task2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h2>Survey Form</h2>
+        <label for="name"><b> Name </b> <span style="color: red;">*</span> </label> <br>
+        <input type="text" name="firstname" id="" placeholder="First Name" class="input-area" required>
+        <input type="text" name="lastname" id="" placeholder="Last Name" class="input-area" required> <br>
+       
+
+        <br> <br> 
+        <label for="email"><b>Email</b><span style="color: red;">*</span></label> <br>
+        <input type="email" name="" id="email" class="input-area1" required>
+
+        <br> <br>
+
+        <label for="" required > Your Experience <span style="color: red;">*</span></label> <br><br>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star"></i>
+
+        <br>
+        <br>
+
+        <label for="" required>Overall, How you rate you experience with us?</label> <br> <br>
+
+        <label for="" ><b>How satisfied are you with</b> <span style="color: red;">*</span></label>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <td></td>
+                <td>Very unsatisfied</td>
+                <td>Unsatisfied</td>
+                <td>Neutral</td>
+                <td>Satisfied</td>
+                <td>Very Satisfied</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row1">
+                <td class="color">Purchase</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="purchase" ></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="purchase "></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="purchase "></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="purchase "></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="purchase "></td>
+            </tr>
+            <tr >
+                <td class="color">Service</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="service"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="service"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="service"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="service"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="service"></td>
+            </tr>
+            <tr class="row1">
+                <td class="color">Company Overall</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="overall"></td>
+                <td  class="color" style="text-align: center;"><input type="radio" name="rating" id="overall"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="overall"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="overall"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="overall"></td>
+            </tr>
+        </tbody>
+        </table>
+        <br> <br>
+        <label for="" required><b>How likely are you to</b> <span style="color: red;">*</span></label> <br> 
+
+        <table class="table">
+            <thead>
+            <tr >
+                <td></td>
+                <td>Very unlikely</td>
+                <td>unlikely</td>
+                <td>Neutral</td>
+                <td>Likely</td>
+                <td>Very Likely</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row1">
+                <td class="color">Buy from us again</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="buy"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="buy"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="buy"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="buy"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="buy"></td>
+            </tr>
+            <tr >
+                <td class="color"> Recommend our products to others</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="products"></td>
+                <td  style="text-align: center;"><input type="radio" name="rating" id="products"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="products"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="products"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="products"></td>
+               
+            </tr>
+            <tr class="row1">
+                <td class="color">Recommend our company to others</td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="other"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="other"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="other"></td>
+                <td class="color" style="text-align: center;"><input type="radio" name="rating" id="other"></td>
+                <td style="text-align: center;"><input type="radio" name="rating" id="other"></td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+
+        <label for=""><b>Additional comments or suggestions</b> <span style="color: red;">*</span></label> <br>
+        <textarea name="" id="" cols="100" rows="10" class="textarea"></textarea> <br> <br>
+
+        <input type="submit" name="Submit" id="" >
+        
+
+    </form>
+</div>
+</body>
+</html>
